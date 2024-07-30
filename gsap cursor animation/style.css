@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+body{
+    height:100%;
+    width:100%;
+    background-color: #111;
+   
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#cursor{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: white;
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#image{
+    height: 30vw;
+    width: 60vw;
+    /* background-color: red; */
+    /* go to unplash.com */
+    position: relative;
+   
+}
+
+#image img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}   
+
+#overlay{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position : absolute;
+
+    background-color:#ffffff8a
+}
